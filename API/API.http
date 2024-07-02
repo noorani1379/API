@@ -1,0 +1,10 @@
+@API_HostAddress = https://localhost:7196
+
+GET {{API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+POST {{API_HostAddress}}/api/accounts?UserName=string&Password=string
+
+###
